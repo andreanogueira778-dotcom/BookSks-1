@@ -16,14 +16,7 @@ const livros = [
     descricao:
       "Explora os mecanismos por trás dos hábitos e mostra como mudá-los para transformar a vida pessoal e profissional."
   },
-  {
-    titulo: "Micro-Hábitos",
-    imagem: "https://m.media-amazon.com/images/I/71KzD7YlJRL.jpg",
-    categoria: "Comportamento / Produtividade",
-    quantidade: 1,
-    descricao:
-      "Pequenas mudanças que produzem grandes resultados, com base em técnicas de BJ Fogg sobre hábitos sustentáveis."
-  },
+  
 {
     titulo: "Pense e enriqueça",
     imagem: "https://m.media-amazon.com/images/I/71Vji8FDaPL._SL1500_.jpg",
@@ -41,111 +34,57 @@ const livros = [
       "Ensina técnicas baseadas na neurociência para otimizar o aprendizado, focando no uso de dois modos de pensamento: focado (lógico e direto) e difuso (criativo e geral). "
   },
   {
-    titulo: "Micro-Hábitos",
-    imagem: "https://m.media-amazon.com/images/I/71KzD7YlJRL.jpg",
-    categoria: "Comportamento / Produtividade",
+    titulo: " O homem mais rico da babilonia",
+    imagem: "https://m.magazineluiza.com.br/a-static/420x420/livro-o-homem-mais-rico-da-babilonia/livrariaepapelariablulivro/l99073261a/4f2b9df0c026cde9707b3fc321a30303.jpeg",
+    categoria: "",
     quantidade: 1,
     descricao:
-      "Pequenas mudanças que produzem grandes resultados, com base em técnicas de BJ Fogg sobre hábitos sustentáveis."
+      "O Homem Mais Rico da Babilonia é categorizado como um livro de finanças pessoais e educação financeira. Ele é considerado um clássico atemporal e é frequentemente recomendado para jovens e adultos que buscam melhorar sua educação financeira e alcançar a liberdade financeira. O livro é amplamente reconhecido por suas lições sobre planejamento financeiro, a importância de se poupar, empréstimos, e investimentos."
   },
-  {
-    titulo: "Micro-Hábitos",
-    imagem: "https://m.media-amazon.com/images/I/71KzD7YlJRL.jpg",
-    categoria: "Comportamento / Produtividade",
-    quantidade: 1,
-    descricao:
-      "Pequenas mudanças que produzem grandes resultados, com base em técnicas de BJ Fogg sobre hábitos sustentáveis."
+  {titulo:"Essencialismo",
+   imagem:"https://m.media-amazon.com/images/I/41tL0XNglML._SY445_SX342_ML2_.jpg",
+   categoria:"",
+   quantidade:1,
+   descricao:"O livro Essencialismo: A disciplinada busca por menos de Greg McKeown é categorizado como um livro de filosofia de vida e gestão de tempo. Ele desafia a mentalidade de fazer tudo e propõe uma abordagem mais focada e intencional para a vida e o trabalho. McKeown argumenta que, em vez de tentar fazer tudo, devemos nos concentrar nas poucas coisas que realmente importam e eliminar o resto."
   },
-  {
-    titulo: "Micro-Hábitos",
-    imagem: "https://m.media-amazon.com/images/I/71KzD7YlJRL.jpg",
-    categoria: "Comportamento / Produtividade",
-    quantidade: 1,
-    descricao:
-      "Pequenas mudanças que produzem grandes resultados, com base em técnicas de BJ Fogg sobre hábitos sustentáveis."
-  },
-  {
-    titulo: "Micro-Hábitos",
-    imagem: "https://m.media-amazon.com/images/I/71KzD7YlJRL.jpg",
-    categoria: "Comportamento / Produtividade",
-    quantidade: 1,
-    descricao:
-      "Pequenas mudanças que produzem grandes resultados, com base em técnicas de BJ Fogg sobre hábitos sustentáveis."
-  },
-  {
-    titulo: "Micro-Hábitos",
-    imagem: "https://m.media-amazon.com/images/I/71KzD7YlJRL.jpg",
-    categoria: "Comportamento / Produtividade",
-    quantidade: 1,
-    descricao:
-      "Pequenas mudanças que produzem grandes resultados, com base em técnicas de BJ Fogg sobre hábitos sustentáveis."
-  },
-  {
-    titulo: "Micro-Hábitos",
-    imagem: "https://m.media-amazon.com/images/I/71KzD7YlJRL.jpg",
-    categoria: "Comportamento / Produtividade",
-    quantidade: 1,
-    descricao:
-      "Pequenas mudanças que produzem grandes resultados, com base em técnicas de BJ Fogg sobre hábitos sustentáveis."
-  },
-  {
-    titulo: "Micro-Hábitos",
-    imagem: "https://m.media-amazon.com/images/I/71KzD7YlJRL.jpg",
-    categoria: "Comportamento / Produtividade",
-    quantidade: 1,
-    descricao:
-      "Pequenas mudanças que produzem grandes resultados, com base em técnicas de BJ Fogg sobre hábitos sustentáveis."
-  },
-  {
-    titulo: "Micro-Hábitos",
-    imagem: "https://m.media-amazon.com/images/I/71KzD7YlJRL.jpg",
-    categoria: "Comportamento / Produtividade",
-    quantidade: 1,
-    descricao:
-      "Pequenas mudanças que produzem grandes resultados, com base em técnicas de BJ Fogg sobre hábitos sustentáveis."
-  },
-  {
-    titulo: "Micro-Hábitos",
-    imagem: "https://m.media-amazon.com/images/I/71KzD7YlJRL.jpg",
-    categoria: "Comportamento / Produtividade",
-    quantidade: 1,
-    descricao:
-      "Pequenas mudanças que produzem grandes resultados, com base em técnicas de BJ Fogg sobre hábitos sustentáveis."
-  },
-  {
-    titulo: "Micro-Hábitos",
-    imagem: "https://m.media-amazon.com/images/I/71KzD7YlJRL.jpg",
-    categoria: "Comportamento / Produtividade",
-    quantidade: 1,
-    descricao:
-      "Pequenas mudanças que produzem grandes resultados, com base em técnicas de BJ Fogg sobre hábitos sustentáveis."
-  },
-  {
-    titulo: "Micro-Hábitos",
-    imagem: "https://m.media-amazon.com/images/I/71KzD7YlJRL.jpg",
-    categoria: "Comportamento / Produtividade",
-    quantidade: 1,
-    descricao:
-      "Pequenas mudanças que produzem grandes resultados, com base em técnicas de BJ Fogg sobre hábitos sustentáveis."
-  },
-  {
-    titulo: "Micro-Hábitos",
-    imagem: "https://m.media-amazon.com/images/I/71KzD7YlJRL.jpg",
-    categoria: "Comportamento / Produtividade",
-    quantidade: 1,
-    descricao:
-      "Pequenas mudanças que produzem grandes resultados, com base em técnicas de BJ Fogg sobre hábitos sustentáveis."
-  },
-  {
-    titulo: "Micro-Hábitos",
-    imagem: "https://m.media-amazon.com/images/I/71KzD7YlJRL.jpg",
-    categoria: "Comportamento / Produtividade",
-    quantidade: 1,
-    descricao:
-      "Pequenas mudanças que produzem grandes resultados, com base em técnicas de BJ Fogg sobre hábitos sustentáveis."
-  },
-];
 
+{titulo:"7 habitos das pessoas altamente eficazes",
+ imagem:"https://m.magazineluiza.com.br/a-static/420x420/livro-os-7-habitos-das-pessoas-altamente-eficazes-stephen-r-covey/leituraalvoradapatiobrasil/9788576840626/c0b0df2f03be6acda72c93d0c6310cf8.jpg",
+ categoria:"",
+ quantidade:1,
+ descricao:"",
+},
+{titulo:"como convencer alguém em 90 segundos",
+ imagem:"https://m.magazineluiza.com.br/a-static/420x420/livro-como-convencer-alguem-em-90-segundos/livrariassis/1267487843/5bea397ccdb44709d7227af63a8f734f.jpg",
+ categoria:"",
+ quantidade:1,
+ descricao:"",
+},
+{titulo:"Como fazer amigos e influenciar pessoas",
+ imagem:"https://m.media-amazon.com/images/I/71x-i7sKSvL._SY385_.jpg",
+ categoria:"",
+ quantidade:1,
+ descricao:"",
+},
+{titulo:"descubra seus pontos fortes",
+ imagem:"https://m.media-amazon.com/images/I/51bpkuYQCvL._SY445_SX342_ML2_.jpg",
+ categoria:"",
+ quantidade:1,
+ descricao:"",
+},
+{titulo:"Micro-hábitos",
+ imagem:"https://m.magazineluiza.com.br/a-static/420x420/livro-micro-habitos/livrariacirculo/90015p/d29193718c95e60c17e5176301525990.jpg",
+ categoria:"",
+ quantidade:1,
+ descricao:"",
+},
+{titulo:"o milagre do amanhã",
+ imagem:"https://m.media-amazon.com/images/I/81sExobsgoL._SY425_.jpg",
+ categoria:"",
+ quantidade:1,
+ descricao:"",
+},
+]
 // ELEMENTOS
 const bookList = document.getElementById("bookList");
 const searchInput = document.getElementById("searchInput");

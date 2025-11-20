@@ -1,0 +1,166 @@
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background: linear-gradient(135deg, #66aefc, #9cd4ff);
+  height: 100vh;
+  display: flex;
+  overflow: hidden;
+}
+
+
+#menu {
+  width: 250px;
+  background: #ffffff;
+  height: 100%;
+  padding: 20px;
+  border-right: 2px solid #d6e6ff;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+#ima_logo {
+  width: 110px;
+}
+
+#booksys h1 {
+  line-height: 1;
+  font-size: 26px;
+  color: #004a97;
+  font-weight: bold;
+}
+
+nav ul {
+  list-style: none;
+  margin-top: 40px;
+}
+
+nav ul li {
+  margin: 18px 0;
+}
+
+nav ul li a {
+  text-decoration: none;
+  font-size: 18px;
+  color: #1a1a1a;
+  padding: 10px 5px;
+  display: block;
+  transition: 0.2s;
+}
+
+nav ul li a:hover {
+  background: #e8f2ff;
+  border-radius: 8px;
+}
+
+.user {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  font-size: 18px;
+  color: #333;
+}
+
+
+#content {
+  flex: 1;
+  padding: 40px;
+  overflow-y: auto;
+}
+
+.title {
+  color: white;
+  font-size: 32px;
+  margin-bottom: 25px;
+}
+
+
+.edit-container {
+  background: white;
+  padding: 30px;
+  border-radius: 20px;
+  display: flex;
+  gap: 40px;
+  width: 90%;
+  max-width: 1100px;
+  margin: auto;
+  box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.15);
+}
+
+
+.book-image img {
+  width: 300px; 
+  border-radius: 10px;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.3);
+  object-fit: contain; 
+}
+
+
+.book-form {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.book-form label {
+  font-weight: bold;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  color: #003f7d;
+}
+
+.book-form input,
+.book-form textarea {
+  width: 100%;
+  padding: 10px;
+  border-radius: 10px;
+  border: 2px solid #b7d8ff;
+  background: #f5f9ff;
+  outline: none;
+  resize: none;
+  font-size: 15px;
+}
+
+.book-form input:focus,
+.book-form textarea:focus {
+  border-color: #66aefc;
+  background: #ffffff;
+}
+
+
+.buttons {
+  margin-top: 20px;
+  display: flex;
+  gap: 20px;
+}
+
+button {
+  padding: 12px 25px;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  font-size: 16px;
+  color: white;
+  font-weight: bold;
+  transition: 0.2s;
+}
+
+.edit {
+  background: #4da3ff;
+}
+
+.edit:hover {
+  background: #1c82f5;
+}
+
+

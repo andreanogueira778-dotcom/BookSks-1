@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BookSys - Editar Livros</title>
+  <link rel="stylesheet" href="editar_livro.css">
+</head>
+
+<body>
+  <aside id="menu">
+    <div class="logo">
+      <img id="ima_logo" src="../BookSks/Log_do_sitew-removebg-preview.png" alt="BookSys Logo">
+      <div id="booksys">
+        <h1>Book</h1>
+        <h1>Sys</h1>
+      </div>
+    </div>
+
+    <nav>
+      <ul>
+        <li><a href="#" id="homeBtn">🏠 Início</a></li>
+        <li><a href="#" id="booksBtn">📚 Livros</a></li>
+        <li><a href="#" id="historyBtn">📄 Histórico do Usuário</a></li>
+        <li><a href="#" id="addBookBtn">➕ Adicionar Livro</a></li>
+        <li><a href="#" id="addEmployeeBtn">🙍‍♂️ Adicionar Funcionário</a></li>
+      </ul>
+    </nav>
+
+    <div class="user">
+      <p>👤 Nome_Usuario</p>
+    </div>
+  </aside>
+
+  <main id="content">
+    <h1 class="title">Editar Livros</h1>
+
+    <div class="edit-container">
+      
+      <div class="book-image">
+        <img src="https://m.media-amazon.com/images/I/71xLmdLOQ0L.jpg" alt="Capa do Livro O Poder do Hábito">
+      </div>
+
+     
+      <div class="book-form">
+        <label>Título:</label>
+        <input type="text" value="O Poder do Hábito">
+
+        <label>Quantidade:</label>
+        <input type="number" value="1">
+
+        <label>Categoria:</label>
+        <input type="text" value="Desenvolvimento Pessoal / Psicologia">
+
+        <label>Descrição:</label>
+        <textarea rows="10">
+O Poder do Hábito revela os mecanismos por trás dos hábitos que moldam nossas vidas, explorando como eles funcionam e como podem ser transformados. Charles Duhigg, renomado jornalista do New York Times, mergulha na ciência da formação dos hábitos e como eles influenciam tanto indivíduos quanto as organizações.
+        </textarea>
+
+        <div class="buttons">
+          <button class="edit">Editar</button>
+          <button class="delete">Deletar</button>
+        </div>
+      </div>
+
+    </div>
+  </main>
+
+</body>
+</html>
